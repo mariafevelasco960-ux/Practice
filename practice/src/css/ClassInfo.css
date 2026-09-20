@@ -1,0 +1,29 @@
+.class-info {
+  background: #f8eaff;
+  padding: 30px;
+  text-align: center;
+}
+
+.class-info h2 {
+  color: #7b2cbf;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info-grid div {
+  background: white;
+  border-top: 5px solid #e83e8c;
+  border-radius: 12px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0 4px 10px #ddd;
+}
+
+.info-grid h3 {
+  color: #e83e8c;
+}
