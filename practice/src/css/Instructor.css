@@ -1,0 +1,36 @@
+.instructor {
+  padding: 25px;
+}
+
+.instructor-card {
+  background: #fff0f8;
+  border: 2px solid #e83e8c;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.avatar {
+  background: #7b2cbf;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.instructor-card h2 {
+  color: #7b2cbf;
+  margin: 0;
+}
+
+.instructor-card p {
+  margin: 5px 0;
+}
