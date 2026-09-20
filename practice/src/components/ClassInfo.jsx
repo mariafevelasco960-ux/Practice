@@ -1,9 +1,10 @@
-import "css/ClassInfo.css";
+import "../css/ClassInfo.css";
 
 function ClassInfo() {
   return (
     <section className="class-info">
       <h2>Class Information</h2>
+
       <div className="info-grid">
         <div>
           <h3>Subject</h3>
