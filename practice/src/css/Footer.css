@@ -1,27 +1,15 @@
-import "css/ClassInfo.css";
-
-function ClassInfo() {
-  return (
-    <section className="class-info">
-      <h2>Class Information</h2>
-      <div className="info-grid">
-        <div>
-          <h3>Subject</h3>
-          <p>Web Development</p>
-        </div>
-
-        <div>
-          <h3>Section</h3>
-          <p>BSIT 3C</p>
-        </div>
-
-        <div>
-          <h3>Schedule</h3>
-          <p>Monday & Wednesday</p>
-        </div>
-      </div>
-    </section>
-  );
+.header {
+  background: linear-gradient(135deg, #7b2cbf, #e83e8c);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
 }
 
-export default ClassInfo;
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin-top: 8px;
+}
